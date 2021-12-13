@@ -5,7 +5,7 @@ from pydub.playback import play
 from pydub import AudioSegment
 from utils import text2int
 import re
-import datetime
+from datetime import date, datetime, timedelta 
 
 
 # TEXT_TO_SECONDS = { "um minuto": 60, "" }
@@ -41,7 +41,8 @@ def parse_command(command_action, argument, when):
 
     seconds = text2seconds(text)
     set_alarm_in(seconds, argument)
-    Marvin.speak("Anotado")
+    timeToAlarm = (datetime.now() + timedelta(seconds=seconds)).strftime("%H:%M")
+    Marvin.speak("Alarme anotado para às " + timeToAlarm)
 
 def text2seconds(text):
   # print(text) 
