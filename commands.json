@@ -75,7 +75,13 @@
         { "me lembre de * em #": { "time_indicator": "em", "type": "in" } },
         { "lembrar de * em #": { "time_indicator": "em", "type": "in" } },
         { "lembre de * em #": { "time_indicator": "em", "type": "in" } },
-        { "lembra de * em #": { "time_indicator": "em", "type": "in" } }
+        { "lembra de * em #": { "time_indicator": "em", "type": "in" } },
+        { "me lembre que * daqui #": { "time_indicator": "daqui", "type": "in" } },
+        { "me lembre que * daqui a #": { "time_indicator": "daqui a", "type": "in" } },
+        { "me lembre que * em #": { "time_indicator": "em", "type": "in" } },
+        { "lembrar que * em #": { "time_indicator": "em", "type": "in" } },
+        { "lembre que * em #": { "time_indicator": "em", "type": "in" } },
+        { "lembra que * em #": { "time_indicator": "em", "type": "in" } }
       ]
     }
   ]

@@ -49,7 +49,7 @@ def listen():
 
 def check_command_matching(term, command):
   # print(term, command)
-  if term.strip() in command.strip():
+  if term.strip() == command.strip():
     return True
   return False
 

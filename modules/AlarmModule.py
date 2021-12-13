@@ -71,6 +71,9 @@ def text2seconds(text):
 
     if 'e meia' in text:
       result += 1800 # + 30 minutos
+    if 'meia hora' in text:
+      result += 1800 # + 30 minutos
+
 
   return result
 
