@@ -4,7 +4,7 @@ Marvin
 
 <p align="center">Assistente virtual que consegue abrir sites e fazer pesquisas neles, abrir programas, tocar música, adicionar lembretes e adicionar novos comandos de voz
   sem precisar mexer com código </p>
-👉Link no Youtube demonstrando o bot: https://youtu.be/i23DHEIkdYY
+👉Link no Youtube demonstrando o bot: https://youtu.be/jjMbnQShabM
 
 ## 📜 Sobre
 Esse projeto utiliza uma biblioteca de reconhecimento de voz para automatizar as ações que estão no arquivo ```commands.json```, dessa forma, é possível adicionar mais comandos
