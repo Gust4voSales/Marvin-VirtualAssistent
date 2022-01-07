@@ -24,12 +24,14 @@ Modules:
 - **PyDub** — Manipulate audio with a simple and easy high level interface.
 - **Pytube** — Pytube is a lightweight, Pythonic, dependency-free, library (and command-line utility) for downloading YouTube Videos.
 - **python-vlc** — Bindings to manipulate vlc player.
+- **keyboard** — Take full control of your keyboard with this small Python library.
 
 ## 🛠 Getting started
 1. Install all dependecies: 
   &nbsp; &nbsp;<div>- ```pip3 install SpeechRecognition``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pyttsx3``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pydub``` </div>
+  &nbsp; &nbsp;<div>- ```pip3 install keyboard``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install Pytube``` </div>
   &nbsp; &nbsp;<div>- Download and install VLC 64bit version (https://www.videolan.org/vlc/) for the MusicModule player </div>
   &nbsp; &nbsp;<div>- ```pip3 install python-vlc``` </div> <br>  
