@@ -29,6 +29,7 @@ Modules:
 ## 🛠 Getting started
 1. Install all dependecies: 
   &nbsp; &nbsp;<div>- ```pip3 install SpeechRecognition``` </div>
+  &nbsp; &nbsp;<div>- ```pip3 install PyAudio``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pyttsx3``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pydub``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install keyboard``` </div>
