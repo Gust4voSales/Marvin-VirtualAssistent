@@ -24,13 +24,16 @@ Módulos:
 - **PyDub** — Manipule áudio com uma interface simples e fácil de alto nível.
 - **Pytube** — Pytube é uma biblioteca leve, Pythonic, livre de dependência (e utilitário de linha de comando) para baixar vídeos do YouTube.
 - **python-vlc** — Bindings para manipular o player de víceo VLC.
+- **keyboard** — Tenha controle total do seu teclado com essa biblioteca.
 
 ## 🛠 Iniciando
 1. Instale as dependências: 
   &nbsp; &nbsp;<div>- ```pip3 install SpeechRecognition``` </div>
+  &nbsp; &nbsp;<div>- ```pip3 install PyAudio``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pyttsx3``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pydub``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install Pytube``` </div>
+  &nbsp; &nbsp;<div>- ```pip3 install keyboard``` </div>
   &nbsp; &nbsp;<div>- Download e instale o VLC versão 64bit (https://www.videolan.org/vlc/) para o player do MusicModule </div>
   &nbsp; &nbsp;<div>- ```pip3 install python-vlc``` </div> <br>  
 2. Clone esse repositório rodando no terminal ```git clone https://github.com/Gust4voSales/Marvin-VirtualAssistent/ ``` 
