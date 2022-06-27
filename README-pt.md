@@ -41,5 +41,5 @@ Módulos:
   Então, você pode fechar essa janela do terminal (o programa está rodando em background) 
 3. Para rodar normalmente: ```python main.py```
 
-* Algumas dependências como o pydub não estão sendo mantidos e podem não funcionar quando instalados pelo pip ou irão necessitar de mais debugging + pesquisa pra conseguir fazer funcionar :(
+\* Algumas dependências como o pydub não estão sendo mantidos e podem não funcionar quando instalados pelo pip ou irão necessitar de mais debugging + pesquisa pra conseguir fazer funcionar :(
 
