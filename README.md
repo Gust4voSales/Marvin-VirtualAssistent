@@ -27,7 +27,7 @@ Modules:
 - **keyboard** — Take full control of your keyboard with this small Python library.
 
 ## 🛠 Getting started
-1. Install all dependecies: 
+1. Install all dependecies*: 
   &nbsp; &nbsp;<div>- ```pip3 install SpeechRecognition``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install PyAudio``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pyttsx3``` </div>
@@ -40,4 +40,6 @@ Modules:
 3. To run the assistent without showing a terminal window, then open up the terminal on the project folder and run ```pythonw main.py```. 
   Then you can close this terminal window (the program is running in the background) 
 3. To run normally: ```python main.py```
+
+* Some dependencies such as pydub are not being manteined properly and may not work when installed through pip or require more debugging + searching in order to make it work.
 
