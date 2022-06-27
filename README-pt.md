@@ -27,7 +27,7 @@ Módulos:
 - **keyboard** — Tenha controle total do seu teclado com essa biblioteca.
 
 ## 🛠 Iniciando
-1. Instale as dependências: 
+1. Instale as dependências*: 
   &nbsp; &nbsp;<div>- ```pip3 install SpeechRecognition``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install PyAudio``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pyttsx3``` </div>
@@ -40,4 +40,6 @@ Módulos:
 3. Para rodar o assistente sem mostrar uma janela do terminal, abre o terminal na pasta do projeto e rode ```pythonw main.py```. 
   Então, você pode fechar essa janela do terminal (o programa está rodando em background) 
 3. Para rodar normalmente: ```python main.py```
+
+* Algumas dependências como o pydub não estão sendo mantidos e podem não funcionar quando instalados pelo pip ou irão necessitar de mais debugging + pesquisa pra conseguir fazer funcionar :(
 
