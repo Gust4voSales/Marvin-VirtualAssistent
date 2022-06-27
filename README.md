@@ -41,5 +41,5 @@ Modules:
   Then you can close this terminal window (the program is running in the background) 
 3. To run normally: ```python main.py```
 
-\* Some dependencies such as pydub are not being manteined properly and may not work when installed through pip or require more debugging + searching in order to make it work :(
+\* Some dependencies such as pyaudio are not being manteined properly and may not work when installed through pip or require more debugging + searching in order to make it work :(
 
