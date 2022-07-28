@@ -27,7 +27,20 @@ Módulos:
 - **keyboard** — Tenha controle total do seu teclado com essa biblioteca.
 
 ## 🛠 Iniciando
-1. Instale as dependências*: 
+1. Clone esse repositório rodando no terminal ```git clone https://github.com/Gust4voSales/Marvin-VirtualAssistent/ ``` 
+
+### &nbsp; &nbsp;Utilizando Poetry como gerenciador de dependências (recomendado)
+
+2. Instale Poetry (https://python-poetry.org/docs/#installation)
+3. Dentro da pasta do projeto, rode ```poetry install```
+4. Download e instale o VLC versão 64bit (https://www.videolan.org/vlc/) para o player do MusicModule 
+5. Para rodar o assistente sem mostrar uma janela do terminal, abre o terminal na pasta do projeto e rode ```poetry run pythonw main.py```. 
+  Então, você pode fechar essa janela do terminal (o programa está rodando em background) 
+5. Para rodar normalmente: ```poetry run python main.py```
+
+### &nbsp; &nbsp;Utilizando o pip (default) como gerenciador de dependências (não recomendado)* 
+
+2. Instale as dependências: 
   &nbsp; &nbsp;<div>- ```pip3 install SpeechRecognition``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install PyAudio``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pyttsx3``` </div>
@@ -36,7 +49,6 @@ Módulos:
   &nbsp; &nbsp;<div>- ```pip3 install keyboard``` </div>
   &nbsp; &nbsp;<div>- Download e instale o VLC versão 64bit (https://www.videolan.org/vlc/) para o player do MusicModule </div>
   &nbsp; &nbsp;<div>- ```pip3 install python-vlc``` </div> <br>  
-2. Clone esse repositório rodando no terminal ```git clone https://github.com/Gust4voSales/Marvin-VirtualAssistent/ ``` 
 3. Para rodar o assistente sem mostrar uma janela do terminal, abre o terminal na pasta do projeto e rode ```pythonw main.py```. 
   Então, você pode fechar essa janela do terminal (o programa está rodando em background) 
 3. Para rodar normalmente: ```python main.py```
