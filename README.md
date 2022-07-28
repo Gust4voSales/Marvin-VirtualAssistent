@@ -27,7 +27,20 @@ Modules:
 - **keyboard** — Take full control of your keyboard with this small Python library.
 
 ## 🛠 Getting started
-1. Install all dependecies*: 
+1. Clone this repo running on your terminal ```git clone https://github.com/Gust4voSales/Marvin-VirtualAssistent/ ``` 
+
+### &nbsp; &nbsp;Using poetry package manager (recommended)
+
+2. Install Poetry (https://python-poetry.org/docs/#installation)
+3. Inside the project folder run ```poetry install```
+4. Download and install VLC 64bit version (https://www.videolan.org/vlc/) for the MusicModule player
+5. To run the assistent without showing a terminal window, run ```poetry run pythonw main.py```. 
+  Then you can close this terminal window (the program is running in the background) 
+5. To run normally: ```poetry run python main.py```
+
+### &nbsp; &nbsp;Using pip default package manager (not recommended)* 
+
+2. Install all dependencies: 
   &nbsp; &nbsp;<div>- ```pip3 install SpeechRecognition``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install PyAudio``` </div>
   &nbsp; &nbsp;<div>- ```pip3 install pyttsx3``` </div>
@@ -36,10 +49,8 @@ Modules:
   &nbsp; &nbsp;<div>- ```pip3 install Pytube``` </div>
   &nbsp; &nbsp;<div>- Download and install VLC 64bit version (https://www.videolan.org/vlc/) for the MusicModule player </div>
   &nbsp; &nbsp;<div>- ```pip3 install python-vlc``` </div> <br>  
-2. Clone this repo running on your terminal ```git clone https://github.com/Gust4voSales/Marvin-VirtualAssistent/ ``` 
 3. To run the assistent without showing a terminal window, then open up the terminal on the project folder and run ```pythonw main.py```. 
   Then you can close this terminal window (the program is running in the background) 
 3. To run normally: ```python main.py```
-
 \* Some dependencies such as pyaudio are not being manteined properly and may not work when installed through pip or require more debugging + searching in order to make it work :(
 
