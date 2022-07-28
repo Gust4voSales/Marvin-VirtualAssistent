@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "marvin-virtual_assistent"
+version = "0.1.0"
+description = ""
+authors = ["Gust4voSales <manoel0gustavo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SpeechRecognition = "^3.8.1"
+pyttsx3 = "^2.90"
+pydub = "^0.25.1"
+keyboard = "^0.13.5"
+pytube = "^12.1.0"
+python-vlc = "^3.0.16120"
+PyAudio = "^0.2.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

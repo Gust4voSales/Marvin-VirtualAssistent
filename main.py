@@ -28,7 +28,6 @@ def record_audio():
 
 # while True:
 #   record_audio()
-
 while True:
   sleep(0.05) # sleep function prevents loop from being called multiple time and increasing CPU usage
   if keyboard.is_pressed('ctrl+alt+m'):

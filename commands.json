@@ -1,16 +1,14 @@
-{ 
+{
   "commands": [
     {
       "abrir": [
-        {"recarregar comandos": "commands"},
-        {"recarregue os comandos": "commands"},
-        {"recarregar os comandos": "commands"},
-        
-        { "abre o lol": "path:C:/Riot Games/Riot Client/RiotClientServices.exe" },
-        { "abra o lol": "path:C:/Riot Games/Riot Client/RiotClientServices.exe" },
+        { "recarregar comando": "commands" },
+        { "recarregar comandos": "commands" },
+        { "recarregue os comandos": "commands" },
+        { "recarregar os comandos": "commands" },
+
         { "abrir o lol": "path:C:/Riot Games/Riot Client/RiotClientServices.exe" },
-        { "abrir lol": "path:C:/Riot Games/Riot Client/RiotClientServices.exe" },
-        
+
         { "pesquisa por vídeo de *": "web:https://youtube.com" },
         { "pesquise por vídeo de *": "web:https://youtube.com" },
         { "pesquise vídeos de *": "web:https://youtube.com" },
@@ -23,17 +21,17 @@
         { "pesquisa vídeos do *": "web:https://youtube.com" },
         { "procure por vídeos do *": "web:https://youtube.com" },
         { "procure vídeos do *": "web:https://youtube.com" },
-        
+
         { "pesquisa sobre *": "web:https://google.com" },
         { "pesquisa por *": "web:https://google.com" },
         { "pesquise por *": "web:https://google.com" },
         { "pesquise como *": "web:https://google.com" },
         { "procure por *": "web:https://google.com" },
         { "pesquise os *": "web:https://google.com" },
-        
+
         { "busque por *": "web:https://google.com" },
         { "busca por *": "web:https://google.com" },
-       
+
         { "me diz *": "web:https://google.com" },
         { "me diga *": "web:https://google.com" },
         { "procure aí por *": "web:https://google.com" },
@@ -65,7 +63,6 @@
         { "tira música": "fechar" },
         { "tira a música": "fechar" },
         { "tirar a música": "fechar" }
-
       ]
     },
     {
