@@ -9,35 +9,38 @@
 
         { "abrir o lol": "path:C:/Riot Games/Riot Client/RiotClientServices.exe" },
 
-        { "pesquisa por vídeo de *": "web:https://youtube.com" },
-        { "pesquise por vídeo de *": "web:https://youtube.com" },
-        { "pesquise vídeos de *": "web:https://youtube.com" },
-        { "pesquisa vídeos de *": "web:https://youtube.com" },
-        { "procure por vídeos de *": "web:https://youtube.com" },
-        { "procure vídeos de *": "web:https://youtube.com" },
-        { "pesquisa por vídeos do *": "web:https://youtube.com" },
-        { "pesquise por vídeos do *": "web:https://youtube.com" },
-        { "pesquise vídeos do *": "web:https://youtube.com" },
-        { "pesquisa vídeos do *": "web:https://youtube.com" },
-        { "procure por vídeos do *": "web:https://youtube.com" },
-        { "procure vídeos do *": "web:https://youtube.com" },
+        { "pesquisa por vídeo de *": "web?:https://youtube.com" },
+        { "pesquise por vídeo de *": "web?:https://youtube.com" },
+        { "pesquise vídeos de *": "web?:https://youtube.com" },
+        { "pesquisa vídeos de *": "web?:https://youtube.com" },
+        { "procure por vídeos de *": "web?:https://youtube.com" },
+        { "procure vídeos de *": "web?:https://youtube.com" },
+        { "pesquisa por vídeos do *": "web?:https://youtube.com" },
+        { "pesquise por vídeos do *": "web?:https://youtube.com" },
+        { "pesquise vídeos do *": "web?:https://youtube.com" },
+        { "pesquisa vídeos do *": "web?:https://youtube.com" },
+        { "procure por vídeos do *": "web?:https://youtube.com" },
+        { "procure vídeos do *": "web?:https://youtube.com" },
 
-        { "pesquisa sobre *": "web:https://google.com" },
-        { "pesquisa por *": "web:https://google.com" },
-        { "pesquise por *": "web:https://google.com" },
-        { "pesquise como *": "web:https://google.com" },
-        { "procure por *": "web:https://google.com" },
-        { "pesquise os *": "web:https://google.com" },
+        { "pesquisa sobre *": "web?:https://google.com" },
+        { "pesquisa por *": "web?:https://google.com" },
+        { "pesquise por *": "web?:https://google.com" },
+        { "pesquise como *": "web?:https://google.com" },
+        { "procure por *": "web?:https://google.com" },
+        { "pesquise os *": "web?:https://google.com" },
 
-        { "busque por *": "web:https://google.com" },
-        { "busca por *": "web:https://google.com" },
+        { "busque por *": "web?:https://google.com" },
+        { "busca por *": "web?:https://google.com" },
 
-        { "me diz *": "web:https://google.com" },
-        { "me diga *": "web:https://google.com" },
-        { "procure aí por *": "web:https://google.com" },
+        { "me diz *": "web?:https://google.com" },
+        { "me diga *": "web?:https://google.com" },
+        { "procure aí por *": "web?:https://google.com" },
 
-        { "me mostre *": "web:https://google.com" },
-        { "me mostra como *": "web:https://google.com" }
+        { "me mostre *": "web?:https://google.com" },
+        { "me mostra como *": "web?:https://google.com" },
+
+        { "toque algo engraçado": "web!:https://www.youtube.com/watch?v=lMgJzbM0hF8" },
+        { "marvin amoleça meu pinto": "web!:https://www.youtube.com/shorts/baqlfinNGyk" }
       ]
     },
     {

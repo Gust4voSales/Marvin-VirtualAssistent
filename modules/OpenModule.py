@@ -7,8 +7,10 @@ def parse_command(command_action, argument=""):
   # print(command_action)
   # print('argument -> ', argument)
 
-  if command_action[0:3]=="web":
-    open_link(command_action[4:], argument)
+  if command_action[0:4]=="web!":
+    open_link(command_action[5:])
+  elif command_action[0:4]=="web?":
+    open_link_with_search(command_action[5:], argument)
     Marvin.speak("Pesquisando " + argument)
   elif command_action[0:4]=="path":
     open_program(command_action[5:])
@@ -18,9 +20,12 @@ def parse_command(command_action, argument=""):
     Marvin.speak("Atualizado")
 
 
-def open_link(link, argument=""):
+def open_link_with_search(link, argument=""):
   print(f'{link}/search?q={argument}')
   webbrowser.get('windows-default').open_new(f'{link}/search?q={argument}')
+
+def open_link(link):
+  webbrowser.get('windows-default').open_new(f'{link}')
 
 def open_program(path):
   subprocess.Popen([path, '-new-tab'])
