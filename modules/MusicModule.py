@@ -33,8 +33,6 @@ class MusicPlayerTask:
     player.play()
     self._playing = True
   
-    sleep(3) # Or however long you expect it to take to open vlc
-
     while self._playing:
       sleep(0.1)
       while player.is_playing():
